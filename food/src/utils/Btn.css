@@ -1,0 +1,81 @@
+.custom-btn {
+    width: 160px;
+    background-color:#EB0029;
+    height: 50px;
+    color: #fff;
+    padding: 8px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+  }
+  .theme-arr{
+    background-color: #fff;
+    color:#EB0029;
+  }
+
+  .btn-5 {
+    width: 160px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #EB0029;
+  
+  border-radius: 0;
+  }
+  .btn-orange:hover {
+    color: #fff;
+    background: #EB0029;
+     
+  }
+
+  .btn-orange:before,
+  .btn-orange:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:25px;
+    width:0;
+    background: #FC791A;
+  
+    transition:300ms ease all;
+    z-index: 1;
+  }
+  .btn-orange span {
+    position: relative;
+    z-index: 2; 
+}
+.btn-orange:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+
+  .btn-orange:hover {
+    color: #fff;
+    }
+  
+    .btn-orange:hover:before,
+  .btn-orange:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .black-btn {
+    width: 160px;
+    background-color:#0b0013;
+    height: 50px;
+    color: #fff;
+    padding: 8px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+  }

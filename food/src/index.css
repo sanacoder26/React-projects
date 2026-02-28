@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your global CSS file */
+@layer utilities {
+    ::-webkit-scrollbar {
+      width: 11px;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background-color: #f4ded7;
+      border:1px solid #ffa463;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background-color: #FC791A;
+      border-radius: 6px;
+      border: 1px solid #FC791A;
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #FC791A;
+    }
+  }
+  
